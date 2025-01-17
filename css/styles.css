@@ -94,8 +94,14 @@ color: #4d5ae5;
 }
 
 
+.team-list .portfolio-list {
+    display: flex;
+    gap: 24px;
+}
+
+
 .nav-link {
-    display: block;
+display: block;
 padding: 24px 0;
 font-weight: 500;
 font-size: 16px;
@@ -108,8 +114,16 @@ color: #2e2f42;
 .contacts { 
     font-style: normal;
     margin-left: auto;
+}
+
+
+
+.service-item {
+    width: calc((100% - 72px) / 4);
+    
 
 }
+
 
 
 .contacts-link {
@@ -135,7 +149,7 @@ color: #434455;
 .section-title {
     background-color: #2e2f42;
     margin: auto;
-    padding: 188px;
+    padding: 188px 0;
 }
 
 .title {
@@ -145,6 +159,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+max-width: 496px;
 }
 
 
@@ -152,23 +167,25 @@ color: #fff;
 
 
 .button-title {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-text-align: center;
-color: #fff;
-display: flex;
-border-radius: 4px;
-padding: 16px 32px;
-margin: auto;
-margin-top: 48px;
+    display: block;
+    min-width: 169px;
+    border: none;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    cursor: pointer;
+    background-color: #4d5ae5;
+
 }
 
 
 
 .service-list {
-    padding-top: 120px;
+    padding-top: 120px 0;
+    display: flex;
+    gap: 24px;
+
 }
 
 .service-title {
@@ -188,13 +205,26 @@ color: #434455;
 }
 
 
-.section-two-title {
+.section-two {
+    padding: 120px 0;
+}
+
+
+
+
+
+.visually-hidden {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+}
+
+
+.service-title {
+    margin-bottom: 8px;
 
 }
 
@@ -213,8 +243,10 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: center;
 color: #2e2f42;
+margin-bottom: 72px;
+text-align: center;
+margin-bottom: 8px
 }
 
 .member-role {
@@ -224,6 +256,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+margin-bottom: 8px;
 }
 
 .team-title {
@@ -243,11 +276,22 @@ color: #434455;
 
 .section-three {
     background-color: #F4F4FD;
+    padding: 120px 0;
+    margin-bottom: 72px;
+
 }
 
 .team-member {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
 }
+
+.container-three {
+    padding: 32px 0;
+}
+
 
 .footer-last {
 font-weight: 400;
