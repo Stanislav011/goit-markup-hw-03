@@ -7,12 +7,59 @@ body {
 
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
+
+h1, h2, h3, h4, h5, h6 p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
 
 a {
     text-decoration: none;
 }
-     
+
+
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+}
+
+
+
 .logo { 
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -22,6 +69,20 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 }
+
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.service-list {
+    display: flex;
+}
+
+
 
 .header-logo .logo-part {
     color: #2e2f42;
@@ -34,6 +95,8 @@ color: #4d5ae5;
 
 
 .nav-link {
+    display: block;
+padding: 24px 0;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -44,10 +107,14 @@ color: #2e2f42;
 
 .contacts { 
     font-style: normal;
+    margin-left: auto;
+
 }
 
 
 .contacts-link {
+    display: block;
+    padding: 24px 0;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -67,6 +134,8 @@ color: #434455;
 
 .section-title {
     background-color: #2e2f42;
+    margin: auto;
+    padding: 188px;
 }
 
 .title {
@@ -79,6 +148,9 @@ color: #fff;
 }
 
 
+
+
+
 .button-title {
 font-weight: 500;
 font-size: 16px;
@@ -86,6 +158,17 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
 color: #fff;
+display: flex;
+border-radius: 4px;
+padding: 16px 32px;
+margin: auto;
+margin-top: 48px;
+}
+
+
+
+.service-list {
+    padding-top: 120px;
 }
 
 .service-title {
@@ -102,6 +185,17 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+
+
+.section-two-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+
 }
 
 
